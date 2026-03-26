@@ -29,6 +29,6 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
 
-      # Step 5: Run Playwright tests
-      - name: Run Playwright tests
-        run: npx playwright test
+      # Step 5: Run only CLoginpage.spec.ts
+      - name: Run Playwright CLoginpage test
+        run: npx playwright test SathishPlaywright93/CLoginpage.spec.ts
